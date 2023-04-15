@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: 'gangwondo';
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App header {
+  display: inline;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: 'bunseok';
+  src: url('./Font/휴먼범석체.ttf');
+}
+
+@font-face {
+  font-family: 'gangwondo';
+  src: url('./Font/강원교육모두\ Light.ttf') format('font-ttf');
+}
